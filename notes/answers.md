@@ -1,0 +1,1 @@
+apt update downloads the latest list of available packages from the repositories without installing anything. On the other hand, apt upgrade actually downloads and installs the newer versions of the packages currently installed on the system. Therefore, apt update should always be run first to ensure the system is aware of the newest package versions before executing apt upgrade.
